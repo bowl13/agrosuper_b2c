@@ -70,6 +70,11 @@
 		display: none !important;
 	}
 }
+@media (width:768px){
+	.btn_menu_resp{
+		display: none !important;
+	}
+}
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 

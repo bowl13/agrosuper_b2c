@@ -27,12 +27,13 @@
     </nav>
 
     <div class="btn_menu_resp hidden-desktop">
-
-        ver menu
+        
+        <img src="img/menu_resp.gif"/>
 
     </div>
 
 </header>
+
 
 <div class="ocult_menu">
 

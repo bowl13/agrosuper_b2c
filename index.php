@@ -19,7 +19,16 @@
             <!--controles video-->
             <div class="controls">
 
-                <div class="tubular-play"></div>
+                <div class="tubular-play">
+
+                    <div class="btn-play">
+
+                        <div class="pulse"></div>
+                        <div class="orbiter"></div>
+
+                    </div>
+
+                </div>
                 <div class="tubular-pause"></div>
 
             </div>

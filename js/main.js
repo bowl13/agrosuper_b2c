@@ -32,7 +32,7 @@ $(document).ready(function(){
 		$('.tubular-pause').show();
 	};
 	$('#cont_video').tubular({
-		videoId: '6v2L2UGZJAM',
+		videoId: 'XuyMl9I8agM',
 		playButtonClass: 'tubular-play',
 		pauseButtonClass: 'tubular-pause'
 	});
@@ -48,6 +48,7 @@ $(document).ready(function(){
 			$bgobj.css({ backgroundPosition: coords });
 		});
 	});
+	
 
 	/*cont_qsomos*/
 	/*var animationStarted = false;
