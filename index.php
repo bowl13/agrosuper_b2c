@@ -10,29 +10,28 @@
         <div id="wrap">
 
             <div class="container-fluid">
-
                 <?php include("menu.php"); ?>
+
+
+                <!--controles video-->
+                <div class="controls">
+
+                    <div class="tubular-play">
+
+                        <div class="btn-play">
+
+                            <div class="pulse"></div>
+                            <div class="orbiter"></div>
+
+                        </div>
+
+                    </div>
+                    <div class="tubular-pause"></div>
+
+                </div>
 
             </div> <!-- /container -->
             
-
-            <!--controles video-->
-            <div class="controls">
-
-                <div class="tubular-play">
-
-                    <div class="btn-play">
-
-                        <div class="pulse"></div>
-                        <div class="orbiter"></div>
-
-                    </div>
-
-                </div>
-                <div class="tubular-pause"></div>
-
-            </div>
-
             <div id="push"></div>
 
         </div>
