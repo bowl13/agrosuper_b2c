@@ -13,6 +13,10 @@ $(window).load(function(){
 });
 $(document).ready(function(){
 
+	$('.btn_menu_resp').click(function(){
+		$('.ocult_menu').slideToggle('slow');
+	});
+
 	/*bg video*/
 	var $play = $('.tubular-play').click(function(){$('.tubular-play').fadeOut(1000);$('.tubular-pause').show();});
 	var $playp = $('.tubular-pause').click(function(){$('.tubular-play').show();$('.tubular-pause').hide();});

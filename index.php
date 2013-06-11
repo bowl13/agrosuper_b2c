@@ -19,11 +19,7 @@
             <!--controles video-->
             <div class="controls">
 
-                <div class="tubular-play">
-
-                    <img src="img/bg_all.jpg"/>
-
-                </div>
+                <div class="tubular-play"></div>
                 <div class="tubular-pause"></div>
 
             </div>
