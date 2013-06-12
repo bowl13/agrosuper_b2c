@@ -1,12 +1,21 @@
 <!--script-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=178779322280867";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
 <script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/vendor/less-1.3.3.min.js"></script>
+
+<script src="js/vendor/jquery.jpanelmenu.min.js"></script>
+
 <!--video background-->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
 <script src="js/vendor/jquery.tubular.1.0.js"></script>
 
 <script src="js/main.js"></script>

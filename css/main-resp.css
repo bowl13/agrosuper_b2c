@@ -1,6 +1,8 @@
 /* Large desktop */
 @media (min-width: 1200px) {
 }
+
+/*MAXIMO DE 1200PX MENOR DESKTOP*/
 @media (max-width:1200px){
 	#first, #middle1, #middle2, #last{
 		background-image: none !important;
@@ -38,6 +40,7 @@
 		font-size: 18px !important;
 	}
 }
+/*HASTA 800PX DESKTOP*/
 @media (max-width:800px){
 	#first article, #middle2 article{
 		margin-left:-80px;

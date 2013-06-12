@@ -26,23 +26,21 @@
 
     </nav>
 
-    <div class="btn_menu_resp hidden-desktop">
+    <div class="btn_menu_resp hidden-desktop pull-right">
         
-        <img src="img/menu_resp.gif"/>
+        <a href="#menu" class="menu-trigger"><img src="img/menu_resp.gif"/></a>
 
     </div>
 
+    <div class="main hidden-desktop">
+            
+            <nav style="display:none;">
+                <ul>
+                    <li><a href="#">quines somos</a></li>
+                    <li><a href="qsomos.php">de dónde venimos</a></li>
+                    <li><a href="#">dónde encontrarnos</a></li>
+                </ul>
+            </nav>
+    </div>
+
 </header>
-
-
-<div class="ocult_menu">
-
-    <ul class="nav hidden-desktop">
-
-        <li><a href="#">quines somos</a></li>
-        <li><a href="qsomos.php">de dónde venimos</a></li>
-        <li><a  href="#">dónde encontrarnos</a></li>
-
-    </ul>
-
-</div>

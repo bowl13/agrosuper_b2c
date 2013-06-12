@@ -13,10 +13,6 @@ $(window).load(function(){
 });
 $(document).ready(function(){
 
-	$('.btn_menu_resp').click(function(){
-		$('.ocult_menu').slideToggle('slow');
-	});
-
 	/*bg video*/
 	var $play = $('.tubular-play').click(function(){$('.tubular-play').fadeOut(1000);$('.tubular-pause').show();});
 	var $playp = $('.tubular-pause').click(function(){$('.tubular-play').show();$('.tubular-pause').hide();});
@@ -112,6 +108,16 @@ $(document).ready(function(){
 			left:'-'+(($scrolled*0.7))+'%'
 		}, 50);
 	}*/
+
+	var jPanelMenu = {};
+	jPanelMenu = $.jPanelMenu({
+
+        menu: '.main nav',
+        animated: true,
+        direction: 'right'
+        
+    });
+    jPanelMenu.on();
 });
 document.createElement("article");
 document.createElement("section");
