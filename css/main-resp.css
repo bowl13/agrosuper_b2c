@@ -1,5 +1,8 @@
 /* Large desktop */
 @media (min-width: 1200px) {
+	#middle1 article{
+		margin-left: -87% !important;
+	}
 }
 
 /*MAXIMO DE 1200PX MENOR DESKTOP*/
@@ -40,12 +43,18 @@
 		font-size: 18px !important;
 	}
 }
-@media only (width:1024){
-	#tablet1024-no, .hidden-tablet{
-		display: none !important;
+@media (width: 1024px){
+	#first article{ 
+	  margin-left: 25px !important;
 	}
-	#tablet1024-si{
-		display:block !important;
+	#middle2 article{
+		margin-left: 300px !important;
+	}
+	#middle1 article{
+		margin-left: -87% !important;
+	}
+	#last article{
+		margin-left: -52% !important;
 	}
 }
 /*HASTA 800PX DESKTOP*/
@@ -92,6 +101,7 @@
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
+
 	
 }
  
@@ -109,7 +119,7 @@
 		width: 80%;
 	}
 	footer{
-		min-height: 50px;
+		min-height: 60px;
 		height:auto !important;
 	}
 }
@@ -118,5 +128,9 @@
 @media (max-width: 480px) {
 	.social{
 		display: none;
+	}
+	footer{
+		min-height: 80px;
+		height:auto !important;
 	}
 }

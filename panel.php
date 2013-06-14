@@ -27,7 +27,7 @@
         <![endif]-->
         <div id="wrap">
 
-            <div class="contaier-fluid cont-qsomos hidden-phone hidden-tablet" style="overflow:hidden;" id="tablet1024-no">
+            <div id="tablet1024-no" class="contaier-fluid cont-qsomos visible-desktop" style="overflow:hidden;">
 
                 <?php include("menu.php"); ?>
 
@@ -93,85 +93,83 @@
                 </section>
             </div>
 
-            <div class="contaier-fluid cont-qsomos visible-phone visible-tablet"  id="tablet1024-si">
+            <div id="tablet1024-si" class="contaier-fluid cont-qsomos hidden-desktop">
 
               <?php include("menu.php"); ?>
 
-            <!-- Section #1 -->
-            <section id="first" data-speed="15" data-type="background">
+                <!-- Section #1 -->
+                <section id="first" data-speed="15" data-type="background">
 
 
-                <article class="contenido  text-right">
-                    <h1>somos una marca</h1>
-                    <h2>chilena de proteína</h2>
-                    <p>presente en más de</p>
+                    <article class="contenido  text-right">
+                        <h1>somos una marca</h1>
+                        <h2>chilena de proteína</h2>
+                        <p>presente en más de</p>
 
-                    <h3>65 países.</h3>
-                </article>
-
-
-            </section>
-            <!-- Section #2 -->
-            <section id="middle1" data-speed="9" data-type="background">
+                        <h3>65 países.</h3>
+                    </article>
 
 
-                <article class="contenido text-left">
-
-                    <h1></h1>
-                    <p>con alimentos de primera</p>
-                    <p>calidad que cumplen </p>
-
-                    <h3>estándares internacionales.</h3>
-
-                </article>
+                </section>
+                <!-- Section #2 -->
+                <section id="middle1" data-speed="9" data-type="background">
 
 
-            </section>
+                    <article class="contenido text-left">
 
-            <section id="middle2" data-speed="20" data-type="background">
+                        <h1></h1>
+                        <p>con alimentos de primera</p>
+                        <p>calidad que cumplen </p>
 
+                        <h3>estándares internacionales.</h3>
 
-                <article class="contenido text-right">
-
-                    <h1></h1>
-                    <p>nos enfocamos en personas</p>
-                    <p>para las cuales</p>
-
-                    <h3>comer es más <br>que alimentarse.</h3>
-
-                </article>
+                    </article>
 
 
-            </section>
+                </section>
 
-            <section id="last" data-speed="20" data-type="background">
-
-
-                <article class="contenido text-left">
-
-                    <h1></h1>
-                    <p>personas que saborean cada</p>
-
-                    <h3>aspecto de su vida.</h3>
-
-                </article>
+                <section id="middle2" data-speed="20" data-type="background">
 
 
-            </section>
+                    <article class="contenido text-right">
+
+                        <h1></h1>
+                        <p>nos enfocamos en personas</p>
+                        <p>para las cuales</p>
+
+                        <h3>comer es más <br>que alimentarse.</h3>
+
+                    </article>
 
 
-        </div>
+                </section>
+
+                <section id="last" data-speed="20" data-type="background">
 
 
-        <footer class="footer-fix container-fluid text-center">
-        
-            <div class="row-fluid">
+                    <article class="contenido text-left">
 
-                <div class="span12">&copy; 2013 Agrosuper. All rights reserved. | Camino la Estrella Nº 401, of. 7, Sector Punta de Cortes, | Rancagua. Región del Libertador General Bernardo O'Higgins, Chile.</div>
+                        <h1></h1>
+                        <p>personas que saborean cada</p>
 
+                        <h3>aspecto de su vida.</h3>
+
+                    </article>
+
+
+                </section>
             </div>
-                
-        </footer>
+
+
+            <footer class="footer-fix container-fluid text-center">
+            
+                <div class="row-fluid">
+
+                    <div class="span12">&copy; 2013 Agrosuper. All rights reserved. | Camino la Estrella Nº 401, of. 7, Sector Punta de Cortes, | Rancagua. Región del Libertador General Bernardo O'Higgins, Chile.</div>
+
+                </div>
+                    
+            </footer>
         </div>
 
         <script src="http://www.instantshift.com/demo/scrollorama-scroll/js/jquery-1.7.1.min.js"></script>
@@ -210,14 +208,12 @@
 
             $(document).on("ready", gogogo);
                     function gogogo(){
-
-                        var scrollorama = $.scrollorama({ blocks:'#wrap' });   
+                        var scrollorama = $.scrollorama({ blocks:'#tablet1024-no' });   
 
                         scrollorama.animate('#cont_scroll1',{ duration: 600, property:'left', start:0, end:-1000});
                         scrollorama.animate('#cont_scroll2',{ duration: 1200, property:'right', start:-1300});
                         scrollorama.animate('#cont_scroll3',{ duration: 3000, property:'left', start:-900, end:600});
                         scrollorama.animate('#cont_scroll4',{ duration: 3000, property:'right', start:-1000});
-                      
                     }
             $window = $(window);
                 

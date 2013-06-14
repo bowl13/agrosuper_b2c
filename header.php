@@ -10,6 +10,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
+    <!--facebook-->
+    <meta property="og:url" content="RUTA URL"/>
+    <meta property="og:title" content="TITULO PROYECTO"/>
+    <meta property="og:description" content="DESCRIPCION APP FACEBOOK"/>
+    <meta property="og:site_name" content="PROYECTO"/>
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <!--style>

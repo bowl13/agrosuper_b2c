@@ -61,7 +61,7 @@ html, body{
 /*menu*/
 header{
 	width:100%;
-	background-color:rgba(255,255,255,0.9);
+	background-color:#fff;
 	height:90px;
 	z-index: 9999999;
 	left:0 !important;
