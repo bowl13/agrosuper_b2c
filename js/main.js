@@ -3,8 +3,8 @@ $(window).load(function(){
 	$('.load').delay(1000).fadeOut();
 	$('#wrap, footer').fadeIn(200);
 
-		var $load = $('footer').load(function(){});
-		if($load)
+		var load = $('footer').load(function(){});
+		if(load)
 		{
 			$('#cont_video').delay(1000).show();
 		}else{
@@ -14,13 +14,13 @@ $(window).load(function(){
 $(document).ready(function(){
 
 	/*bg video*/
-	var $play = $('.tubular-play').click(function(){$('.tubular-play').fadeOut(1000);$('.tubular-pause').show();});
-	var $playp = $('.tubular-pause').click(function(){$('.tubular-play').show();$('.tubular-pause').hide();});
+	var play = $('.tubular-play').click(function(){$('.tubular-play').fadeOut(1000);$('.tubular-pause').show();});
+	var playp = $('.tubular-pause').click(function(){$('.tubular-play').show();$('.tubular-pause').hide();});
 
-	if ($play){
+	if (play){
 		$('.tubular-pause').hide();
 		$('.tubular-play').show();
-	}else if($playp){
+	}else if(playp){
 		$('.tubular-pause').hide();
 		$('.tubular-play').show();
 	}else{

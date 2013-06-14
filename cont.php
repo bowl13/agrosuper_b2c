@@ -4,9 +4,16 @@
  
 		<div class="container-fluid" style="width:100%;padding:0 !important;">
 
-       <?php include("menu.php"); ?>
+        <?php include("menu.php"); ?>
+
+        <div id="app-youtube" class="hidden-desktop">
+
+            <a href="http://youtu.be/IzAO9A9GjgI" rel="external"></a>
+
+        </div>
+
 			<!--controles video-->
-            <div class="controls">
+            <div class="controls hidden-phone hidden-tablet">
 
                 <div class="tubular-play">
 
@@ -38,6 +45,6 @@
             
   </footer>
   
-  <div id="cont_video"></div>
+  <div id="cont_video" class="hidden-phone hidden-tablet"></div>
 
-	<?php include("script.php"); ?>
+<?php include("script.php"); ?>

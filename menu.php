@@ -19,7 +19,7 @@
         <ul class="nav inline pull-right hidden-phone">
 
             <li><a href="#">quines somos</a></li>
-            <li><a href="qsomos.php">de dónde venimos</a></li>
+            <li><a href="panel.php">de dónde venimos</a></li>
             <li><a  href="http://www.youtube.com/embed/LkqwOe0OXyg">dónde encontrarnos</a></li>
 
         </ul>
@@ -37,7 +37,7 @@
             <nav style="display:none;">
                 <ul>
                     <li><a href="#">quines somos</a></li>
-                    <li><a href="qsomos.php">de dónde venimos</a></li>
+                    <li><a href="panel.php">de dónde venimos</a></li>
                     <li><a href="#">dónde encontrarnos</a></li>
                 </ul>
             </nav>
