@@ -27,7 +27,7 @@
         <![endif]-->
         <div id="wrap">
 
-            <div class="contaier-fluid cont-qsomos hidden-phone hidden-tablet" style="overflow:hidden;">
+            <div class="contaier-fluid cont-qsomos hidden-phone hidden-tablet" style="overflow:hidden;" id="tablet1024-no">
 
                 <?php include("menu.php"); ?>
 
@@ -93,7 +93,7 @@
                 </section>
             </div>
 
-            <div class="contaier-fluid cont-qsomos visible-phone vidible-tablet">
+            <div class="contaier-fluid cont-qsomos visible-phone visible-tablet"  id="tablet1024-si">
 
               <?php include("menu.php"); ?>
 

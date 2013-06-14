@@ -40,6 +40,14 @@
 		font-size: 18px !important;
 	}
 }
+@media only (width:1024){
+	#tablet1024-no, .hidden-tablet{
+		display: none !important;
+	}
+	#tablet1024-si{
+		display:block !important;
+	}
+}
 /*HASTA 800PX DESKTOP*/
 @media (max-width:800px){
 	#first article, #middle2 article{
@@ -72,15 +80,19 @@
 	.btn_menu_resp{
 		display: none !important;
 	}
+	.vidible-tablet{
+		display: block !important;
+	}
 }
 @media (width:768px){
 	.btn_menu_resp{
 		display: none !important;
 	}
 }
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-
+	
 }
  
 /* Landscape phone to portrait tablet */
