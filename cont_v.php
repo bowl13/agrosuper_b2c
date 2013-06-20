@@ -3,8 +3,9 @@
 	<?php include('menu.php'); ?>
 	<div class="container-fluid" style="padding:0 !important;">
 		
-			<div id="video"></div>
-	
+	      <div id="video"></div>
+			<div id="footnotediv"></div>
+
 	</div>
 	<div id="push"></div>
 </div>
@@ -15,10 +16,22 @@
 </footer>
 <?php include('script.php'); ?>
 <script type='text/javascript'>
-    jwplayer('video').setup({
-        file: 'img/agro_video.mp4',
-        image: 'http://clientes.octano.cl/b2c/img/video.jpg',
-        width:'100%',
-        stretching:'fill'
-    });
+      // ensure the web page (DOM) has loaded
+		document.addEventListener("DOMContentLoaded", function () {
+		 
+		// Create a popcorn instance by calling the Youtube player plugin
+		var example = Popcorn.youtube(
+		'#video',
+		'http://www.youtube.com/watch?v=XuyMl9I8agM' );
+		 
+		// add a footnote at 2 seconds, and remove it at 6 seconds
+		example.footnote({
+		text: "Pop!",
+		target: "footnotediv"
+		});
+		 
+		// play the video right away
+		example.play();
+		 
+		}, false);
 </script>
