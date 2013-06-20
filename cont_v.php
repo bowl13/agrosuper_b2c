@@ -3,7 +3,9 @@
 	<?php include('menu.php'); ?>
 	<div class="container-fluid" style="padding:0 !important;">
 		
-			<div id="video"></div>
+			<div id="player_1" class="video_holder">
+				<p>To see this video, please enable JavaScript<span class="old_browsers"> or upgrade to the latest HTML5 compatible browser</span>.</p>
+			</div>
 	
 	</div>
 	<div id="push"></div>
@@ -15,10 +17,20 @@
 </footer>
 <?php include('script.php'); ?>
 <script type='text/javascript'>
-    jwplayer('video').setup({
-        file: 'img/agro_video.mp4',
-        image: 'http://clientes.octano.cl/b2c/img/video.jpg',
-        width:'100%',
-        stretching:'fill'
-    });
+    jwplayer('player_1').setup({
+			file: "http://content.bitsontherun.com/videos/lWMJeVvV-364767.mp4",
+			width: "876",
+			height: "470",
+			image: "/content/images/jw-player/lWMJeVvV-876.jpg",
+                        logo: {
+                               file: "http://p.jwpcdn.com/6/0/logo.png",
+                               link: "http://www.longtailvideo.com/jwpabout/?a=l&v=" + jwplayer.version + "&m=f&e=a"
+                        },
+                        abouttext: "JW Player " + jwplayer.version, 
+                        aboutlink: "http://www.longtailvideo.com/jwpabout/?a=r&v=" + jwplayer.version + "&m=f&e=a",
+                        sharing: {
+                              code: encodeURI("<iframe src='http://content.bitsontherun.com/videos/lWMJeVvV-364767.mp4' />"),
+                              link: "http://www.longtailvideo.com/jw-player/"
+                       }
+		});
 </script>
