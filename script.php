@@ -16,9 +16,14 @@ fjs.parentNode.insertBefore(js, fjs);
 <script src="js/vendor/jquery.jpanelmenu.min.js"></script>
 
 <!--video background-->
-<script src="js/vendor/jquery.tubular.1.0.js"></script>
+<!--script src="js/vendor/jquery.tubular.1.0.js"></script-->
+
+<!--other video-->
 
 <script src="js/main.js"></script>
+
+<script src="js/vendor/jwplayer.js"></script>
+<script src="http://jwpsrv.com/library/fFpqRNnGEeKwIRIxOQulpA.js"></script>
 
 <!--google analytics-->
 

@@ -4,6 +4,15 @@
 #wrap, footer, #cont_video{
 	display: none;
 }
+#video{
+	width:100%;
+	min-height: 800px;
+	height: auto;
+}
+#video_wrapper{
+	width: 100% !important;
+	height: 100% !important;
+}
 .load{
 	background-image:url('../img/load.gif');
 	background-position: center;

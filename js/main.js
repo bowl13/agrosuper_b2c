@@ -3,18 +3,18 @@ $(window).load(function(){
 	$('.load').delay(1000).fadeOut();
 	$('#wrap, footer').fadeIn(200);
 
-		var load = $('footer').load(function(){});
+		/*var load = $('footer').load(function(){});
 		if(load)
 		{
 			$('#cont_video').delay(1000).show();
 		}else{
 			$('#cont_video').hide();
-		}
+		}*/
 });
 $(document).ready(function(){
 
 	/*bg video*/
-	var play = $('.tubular-play').click(function(){$('.tubular-play').fadeOut(1000);$('.tubular-pause').show();});
+	/*var play = $('.tubular-play').click(function(){$('.tubular-play').fadeOut(1000);$('.tubular-pause').show();});
 	var playp = $('.tubular-pause').click(function(){$('.tubular-play').show();$('.tubular-pause').hide();});
 
 		if (play){
@@ -32,7 +32,7 @@ $(document).ready(function(){
 		videoId: 'XuyMl9I8agM',
 		playButtonClass: 'tubular-play',
 		pauseButtonClass: 'tubular-pause'
-	});
+	});*/
 	
 	/*scrolling*/
 	$window = $(window);
