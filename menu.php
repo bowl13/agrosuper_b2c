@@ -36,7 +36,7 @@
             
             <nav style="display:none;">
                 <ul>
-                    <li><a href="#">quines somos</a></li>
+                    <li><a href="#">quienes somos</a></li>
                     <li><a href="panel.php">de dónde venimos</a></li>
                     <li><a href="#">dónde encontrarnos</a></li>
                 </ul>
