@@ -3,8 +3,10 @@
 	<?php include('menu.php'); ?>
 	<div class="container-fluid" style="padding:0 !important;">
 		
-	      <div id="video"></div>
-			<div id="footnotediv"></div>
+	     <video id="video" poster="http://clientes.octano.cl/b2c/img/video.jpg" controls>
+	          <source src="img/agro_video.mp4" type="video/mp4" /> <!-- MPEG4 for Safari -->
+	          <source src="http://henriksjokvist.net/examples/html5-video/video.ogg" type="video/ogg" /> <!-- Ogg Theora for Firefox 3.5+ -->
+	     </video>
 
 	</div>
 	<div id="push"></div>
@@ -16,22 +18,18 @@
 </footer>
 <?php include('script.php'); ?>
 <script type='text/javascript'>
-      // ensure the web page (DOM) has loaded
-		document.addEventListener("DOMContentLoaded", function () {
-		 
-		// Create a popcorn instance by calling the Youtube player plugin
-		var example = Popcorn.youtube(
-		'#video',
-		'http://www.youtube.com/watch?v=XuyMl9I8agM' );
-		 
-		// add a footnote at 2 seconds, and remove it at 6 seconds
-		example.footnote({
-		text: "Pop!",
-		target: "footnotediv"
-		});
-		 
-		// play the video right away
-		example.play();
-		 
-		}, false);
+     $(document).ready(function() {
+            var v = document.createElement("video"); // Are we dealing with a browser that supports <video>? 
+            if ( !v.play ) { // If no, use Flash.
+              var params = {
+                allowfullscreen: "true",
+                allowscriptaccess: "always"
+              };
+              var flashvars = {
+                file: "img/agro_video.mp4",
+                image: "http://clientes.octano.cl/b2c/img/video.jpg"
+              };
+              swfobject.embedSWF("player.swf", "demo-video-flash", "480", "272", "9.0.0", "expressInstall.swf", flashvars, params);
+            }
+          });
 </script>

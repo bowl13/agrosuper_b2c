@@ -22,8 +22,6 @@ fjs.parentNode.insertBefore(js, fjs);
 
 <script src="js/main.js"></script>
 
- <script src="http://popcornjs.org/code/dist/popcorn-complete.min.js"></script>
-
 <!--google analytics-->
 
 <!--script>
