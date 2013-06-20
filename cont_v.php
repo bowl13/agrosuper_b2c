@@ -3,9 +3,7 @@
 	<?php include('menu.php'); ?>
 	<div class="container-fluid" style="padding:0 !important;">
 		
-		<div id="video">
-			
-		</div>
+			<div id="video"></div>
 	
 	</div>
 	<div id="push"></div>
@@ -21,7 +19,6 @@
         file: 'img/agro_video.mp4',
         image: 'http://clientes.octano.cl/b2c/img/video.jpg',
         width:'100%',
-        stretching:'fill',
-        html5player:true
+        stretching:'fill'
     });
 </script>
