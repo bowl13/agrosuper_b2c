@@ -18,7 +18,7 @@
 
         <ul class="nav inline pull-right hidden-phone">
 
-            <li><a href="#">quines somos</a></li>
+            <li><a href="#">quienes somos</a></li>
             <li><a href="panel.php">de dónde venimos</a></li>
             <li><a  href="http://www.youtube.com/embed/LkqwOe0OXyg">dónde encontrarnos</a></li>
 
